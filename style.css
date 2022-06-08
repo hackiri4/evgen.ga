@@ -1,0 +1,225 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@1,300;1,400&display=swap');
+
+
+
+:root{
+  --main-color: #D8C686;
+  --black: #13131a;
+  --bg: #272727;
+  --border:.1rem solid rgba(255,255,255,.3);
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  outline: none; border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+
+html{
+  font-size: 70%;
+  overflow-x:hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+
+}
+
+html::-webkit-scrollbar{
+  width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+background: var(--main-color);
+border-radius: 5rem;
+}
+
+body{
+
+}
+section{
+  padding: 1.5rem 7%;
+}
+
+
+.btn{
+  margin-top: 1rem;
+  display: inline-block;
+  padding: .9rem 3rem;
+  font-size: 2.5rem;
+  color: #fff;
+  background: var(--main-color);
+  cursor: pointer;
+}
+
+.btn:hover{
+  letter-spacing: .2rem;
+}
+
+.header{
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  float: right;
+  justify-content: space-between;
+  padding: 1rem 2%;
+  border-bottom: var(--border);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.navbar{
+  position: absolute;
+  right: 3.8rem;
+}
+
+.header .navbar a{
+  top: 49px;
+  padding: 0 10px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #F5F5F5;
+}
+.header .navbar a:hover{
+  color: var(--main-color);
+  border-bottom: .1rem solid var(--main-color);
+  padding-bottom: .4rem;
+}
+
+
+
+
+.header h3 span{
+
+  color: #ca452f;
+}
+
+.header .icons div{
+  color: #fff;
+  cursor: pointer;
+  font-size: 2.5rem;
+  margin-left: 2rem;
+}
+
+
+.header .icons div:hover{
+  color: var(--main-color);
+}
+#menu-btn{
+  display: none;
+}
+
+
+
+.home{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(images/model-house.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.caption h3{
+  position: absolute;
+  left: 60px;
+  top: 122px;
+  max-width: 1269px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 59px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.services{
+  position: relative;
+  top: 4rem;
+}
+.work{
+text-align: center;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 44px;
+/* identical to box height */
+text-transform: uppercase;
+color: #000000;
+}
+.types h3{
+  position: relative;
+text-align: center;
+top: 30px;
+padding: 5px 0 25px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+text-transform: lowercase;
+color: #000000;
+}
+.types .rectangle {
+  position: relative;
+  margin-left: auto;
+   margin-right: auto;
+  width: 30px;
+  height: 4px;
+  margin-top: 25px;
+   background: #000000;
+}
+
+
+
+.content {
+  position: relative;
+width: 100%;
+top: 10rem;
+background: #272727;
+}
+.content-type{
+padding: 50px 5px 50px;
+max-width: 1240px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 44px;
+text-transform: uppercase;
+color: #D8C686;
+}
+
+
+.advantages h1{
+position: relative;
+text-align: center;
+   top: 15rem;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #000000;
+
+}
